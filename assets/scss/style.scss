@@ -1,0 +1,27 @@
+//Backgrounds:
+$main-background-color: #202020;
+$container-background-color: #ffffff;
+
+//Accents:
+$accent-color: #ffb937;
+
+//Fonts:
+$default-font: Consolas;
+
+//Error Colors:
+$strong-error-color: #ff3737;
+$light-error-color: rgb(255, 175, 175);
+
+//Widths & Heights:
+$inputs-default-width: 0px;
+$inputs-default-height: 0px;
+
+:export {
+  //Backgrounds:
+  mainBackgroundColor: $main-background-color;
+  containerBackgroundColor: $container-background-color;
+
+  //Error colors:
+  strongErrorColor: $strong-error-color;
+  lightErrorColor: $light-error-color;
+}
